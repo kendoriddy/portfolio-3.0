@@ -383,7 +383,28 @@ section .title::after{
 .fab {
     margin-right: 10px;
 }
-
+.remotly button {
+    background:#ccc;
+    height:30px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+.skill {
+    font-size: 50px;
+    color: crimson;
+    transition: color 0.3s ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 15%;
+    gap: 40px;
+    width: 70%;
+}
+@media (max-width: 1000px) {
+    .skill {
+        display: none;
+    }
+}
 
 
 /* teams section styling */
