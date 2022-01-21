@@ -380,6 +380,11 @@ section .title::after{
 .skills-content .right .mysql::before{
     width: 70%;
 }
+.fab {
+    margin-right: 10px;
+}
+
+
 
 /* teams section styling */
 .teams .title::after{
